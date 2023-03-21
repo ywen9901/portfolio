@@ -36,6 +36,25 @@ h2 {
   font-family: 'Perpetua', serif;
   font-size: 1.35rem; }
 
+.btn {
+  background-color: white;
+  color: #8592A2;
+  border: solid 2px;
+  border-color: #8592A2;
+  margin-right: 7px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #8592A2;
+  color: white;
+}
+
+.btn.active {
+  background-color: #8592A2;
+  color: white;
+}
+
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
